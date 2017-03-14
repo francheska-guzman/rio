@@ -99,7 +99,7 @@ li a:hover {
 }
 
 #about {
-	background-color: #E0E0E0;
+	background-color: #d8d4d4;
 	padding: 60px;
 }
 
@@ -116,10 +116,23 @@ li a:hover {
 	text-align: justify;
 }
 
-h2 {
+#title {
 	text-align: center;
 }
 
 p {
 	font-size: 18px;
+}
+
+h2 {
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+#moreInfo {
+	display: inline-block;
+	width: 100%;
+	background-image: url("images/nav.jpg");
+	color: #FFFFFF;
+	padding: 50px;
 }
