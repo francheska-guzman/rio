@@ -6,7 +6,7 @@ March 14, 2017
 
 body {
 	margin: 0;
-	background-color: #210E00;
+	background-color: #1c1701;
 }
 
 /* Fonts */
@@ -132,7 +132,21 @@ h2 {
 #moreInfo {
 	display: inline-block;
 	width: 100%;
-	color: #FFFFFF;
 	padding: 50px;
 	font-family: helvetica;
+	color: #FFFFFF;
+}
+
+.back-button {
+	background-color: #DB5B1E;
+	width: 20%;
+	height: 20px;
+	border: none;
+}
+
+.forward-button {
+	background-color: #F6C328;
+	width: 20%;
+	height: 20px;
+	border: none;
 }
