@@ -13,11 +13,11 @@ body {
 
 @import url('https://fonts.googleapis.com/css?family=Mouse+Memoirs');
 
-.liBlue {
+.blue {
 	color: #2E51A1;
 }
 
-.liOrange {
+.orange {
 	color: #DB5B1E;
 }
 
@@ -132,7 +132,6 @@ h2 {
 #moreInfo {
 	display: inline-block;
 	width: 100%;
-	background-image: url("images/wood.jpg");
 	color: #FFFFFF;
 	padding: 50px;
 	font-family: helvetica;
