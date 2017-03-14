@@ -94,8 +94,24 @@ li a:hover {
 	height: 450px;
 }
 
+.back-button {
+	background-color: #DB5B1E;
+	width: 20%;
+	height: 25px;
+	border: none;
+	margin: auto;
+}
+
+.forward-button {
+	background-color: #F6C328;
+	width: 20%;
+	height: 25px;
+	border: none;
+	margin: auto;
+}
+
 #about {
-	background-color: #51473e;
+	background-color: #e8e0de;
 	padding: 60px;
 }
 
@@ -104,7 +120,7 @@ li a:hover {
 	height: 550px;
 	float: left;
 	margin: 0 30px 30px 0;
-	border: solid 1px;
+	border: solid 1px #2E51A1;
 }
 
 #plot {
@@ -120,7 +136,6 @@ li a:hover {
 p {
 	font-size: 16px;
 	font-family: helvetica;
-	color: #1c0d01;
 }
 
 h2 {
@@ -135,18 +150,4 @@ h2 {
 	padding: 50px;
 	font-family: helvetica;
 	color: #FFFFFF;
-}
-
-.back-button {
-	background-color: #DB5B1E;
-	width: 20%;
-	height: 20px;
-	border: none;
-}
-
-.forward-button {
-	background-color: #F6C328;
-	width: 20%;
-	height: 20px;
-	border: none;
 }
