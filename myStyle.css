@@ -1,0 +1,141 @@
+/*
+Francheska Guzman
+CodeBridge Cycle 2 Cohort 4
+March 14, 2017
+*/
+
+body {
+	margin: 0;
+	background-color: #210E00;
+}
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Mouse+Memoirs');
+
+.liBlue {
+	color: #2E51A1;
+}
+
+.liOrange {
+	color: #DB5B1E;
+}
+
+/* Navigation Bar */
+
+header {
+	width: auto;
+	height: auto;
+}
+
+nav {
+	text-align: center;
+    background-image: url("images/nav.jpg");
+    background-repeat: repeat;
+    border-bottom: solid 1px #210E00;
+}
+
+li {
+	display: inline;
+	list-style: none;
+}
+
+li a {
+	display: inline-block;
+	width: 140px;
+    color: #F6C328;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+li a:hover {
+	background-color: #2D1D12;
+}
+
+/* Logo */
+
+#logo {
+	margin-top: 60px;
+	padding: 20px;
+	position: absolute;
+}
+
+#r {
+	width: 100px;
+	height: 100px;
+}
+
+#i {
+	width: 30px;
+	height: 70px;
+	margin-bottom: 10px;
+}
+
+#o {
+	width: 80px;
+	height: 80px;
+}
+
+#homeImage {
+	width: 100%;
+	height: 420px;
+}
+
+#SlideShow {
+
+}
+
+.rioShow {
+	width: 100%;
+	height: 450px;
+}
+
+#about {
+	background-color: #E0E0E0;
+	padding: 60px;
+}
+
+.letterR {
+	width: 100px;
+	height: 100px;
+}
+
+.letterI {
+	width: 30px;
+	height: 70px;
+	margin-bottom: 10px;
+}
+
+.letterO {
+	width: 80px;
+	height: 80px;
+}
+
+.numberTwo {
+	width: 80px;
+	height: 80px;
+}
+
+#poster {
+	width: 400px;
+	height: 550px;
+	float: left;
+	margin-right: 30px;
+}
+
+#plot {
+	display: inline;
+	position: relative;
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 18px;
+}
