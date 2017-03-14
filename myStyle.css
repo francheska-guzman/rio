@@ -96,18 +96,20 @@ li a:hover {
 
 .back-button {
 	background-color: #DB5B1E;
-	width: 20%;
 	height: 25px;
+	width: 49.845%;
 	border: none;
-	margin: auto;
+	margin: 0;
+	padding: 0;
 }
 
 .forward-button {
 	background-color: #F6C328;
-	width: 20%;
 	height: 25px;
+	width: 49.845%;
 	border: none;
-	margin: auto;
+	margin: 0;
+	padding: 0;
 }
 
 #about {
@@ -150,4 +152,9 @@ h2 {
 	padding: 50px;
 	font-family: helvetica;
 	color: #FFFFFF;
+}
+
+.center {
+	width: 50%;
+	margin: 0 auto; 
 }
