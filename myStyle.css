@@ -21,6 +21,11 @@ body {
 	color: #DB5B1E;
 }
 
+.brown {
+	color: #302018;
+	font-weight: bold;
+}
+
 /* Navigation Bar */
 
 header {
@@ -97,7 +102,7 @@ li a:hover {
 .back-button {
 	background-color: #DB5B1E;
 	height: 25px;
-	width: 49.845%;
+	width: 49.6%;
 	border: none;
 	margin: 0;
 	padding: 0;
@@ -106,7 +111,7 @@ li a:hover {
 .forward-button {
 	background-color: #F6C328;
 	height: 25px;
-	width: 49.845%;
+	width: 49.6%;
 	border: none;
 	margin: 0;
 	padding: 0;
@@ -142,19 +147,24 @@ p {
 
 h2 {
 	font-size: 30px;
-	color: #F6C328;
+	color: #2E51A1;
 	font-family: 'Mouse Memoirs', sans-serif;
 }
 
-#moreInfo {
-	display: inline-block;
-	width: 100%;
-	padding: 50px;
-	font-family: helvetica;
-	color: #FFFFFF;
+#infovideo {
+	display: flex;
 }
 
-.center {
-	width: 50%;
-	margin: 0 auto; 
+#info {
+	flex: 1;
+	padding: 50px;
+	font-family: helvetica;
+	color: #000000;
+	background-color: #F6C328;
+}
+
+#video {
+	flex: 2;
+	background-color: #2E51A1;
+	padding-top: 100px;
 }
