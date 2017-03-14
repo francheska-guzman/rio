@@ -30,7 +30,7 @@ header {
 
 nav {
 	text-align: center;
-    background-image: url("images/nav.jpg");
+    background-image: url("images/wood.jpg");
     background-repeat: repeat;
     border-bottom: solid 1px #210E00;
 }
@@ -107,7 +107,7 @@ li a:hover {
 	width: 400px;
 	height: 550px;
 	float: left;
-	margin-right: 30px;
+	margin: 0 30px 30px 0;
 }
 
 #plot {
@@ -121,18 +121,21 @@ li a:hover {
 }
 
 p {
-	font-size: 18px;
+	font-size: 16px;
+	font-family: helvetica;
 }
 
 h2 {
 	font-size: 30px;
-	color: #FFFFFF;
+	color: #F6C328;
+	font-family: 'Mouse Memoirs', sans-serif;
 }
 
 #moreInfo {
 	display: inline-block;
 	width: 100%;
-	background-image: url("images/nav.jpg");
+	background-image: url("images/wood.jpg");
 	color: #FFFFFF;
 	padding: 50px;
+	font-family: helvetica;
 }
