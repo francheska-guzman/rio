@@ -11,7 +11,7 @@ body {
 
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Mouse+Memoirs');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Mouse+Memoirs');
 
 .blue {
 	color: #2E51A1;
@@ -90,7 +90,9 @@ li a:hover {
 }
 
 .bigger {
-	font-size: 18px;
+	font-size: 34px;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
 }
 
 #main {
