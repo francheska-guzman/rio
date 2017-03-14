@@ -63,18 +63,23 @@ li a:hover {
 	position: absolute;
 }
 
-#r {
+.r {
 	width: 100px;
 	height: 100px;
 }
 
-#i {
+.i {
 	width: 30px;
 	height: 70px;
 	margin-bottom: 10px;
 }
 
-#o {
+.o {
+	width: 80px;
+	height: 80px;
+}
+
+.two {
 	width: 80px;
 	height: 80px;
 }
@@ -96,27 +101,6 @@ li a:hover {
 #about {
 	background-color: #E0E0E0;
 	padding: 60px;
-}
-
-.letterR {
-	width: 100px;
-	height: 100px;
-}
-
-.letterI {
-	width: 30px;
-	height: 70px;
-	margin-bottom: 10px;
-}
-
-.letterO {
-	width: 80px;
-	height: 80px;
-}
-
-.numberTwo {
-	width: 80px;
-	height: 80px;
 }
 
 #poster {
