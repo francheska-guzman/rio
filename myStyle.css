@@ -64,6 +64,10 @@ a {
 	font-family: helvetica;
 }
 
+a:hover {
+	color: #2E51A1;
+}
+
 h2 {
 	font-size: 30px;
 	color: #2E51A1;
