@@ -188,16 +188,16 @@ p {
 
 #info {
 	flex: 1;
-	padding: 50px;
+	padding: 20px;
 	font-family: helvetica;
 	color: #000000;
 	background-color: #F6C328;
 }
 
 #video {
-	flex: 2;
+	flex: 1;
 	background-color: #2E51A1;
-	padding-top: 100px;
+	padding-top: 3%;
 }
 
 /* Modal */
