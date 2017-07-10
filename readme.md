@@ -19,7 +19,7 @@ Developed by Francheska Guzman
 
 ## <a id="description">Description</a>
 
-The site provides a general information about the Rio movies, including media content like a slideshow gallery and videos.
+The site provides information about two Rio movies, including media content like a slideshow gallery and videos.
 
 ## <a id="instructions">How to use</a>
 
