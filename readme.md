@@ -1,4 +1,4 @@
-# Rio
+# <a id="project">Rio</a>
 
 ### Table of Contents
 
@@ -20,7 +20,9 @@ The site provides information about two Rio movies, including media content like
 
 ## <a id="instructions">How to use</a>
 
-Visit the site and navigate through "Home", "Rio 2011", and "Rio 2014". To get more information about Rio, click over "Rio Site" located in the navigation bar.
+Visit the site and navigate through "Home", "Rio 2011", and "Rio 2014". 
+
+To get more information about Rio, click over "Rio Site" located in the navigation bar.
 
 ## <a id="technologies">Technologies used</a>
 
@@ -37,3 +39,5 @@ Chrome – Version 59.0.3071.115
 Firefox – Version 54.0.1
 
 Safari – Version 9.1.2
+
+#### [Go back to the Table of Contents](#project)
