@@ -12,42 +12,48 @@ March 14, 2017
 	</audio>
 	<title>Rio</title>
 </head>
-<header>
-	<div id="logo"> <!-- Letters R, I and O. -->
-		<img class="r" src="images/r.png">
-		<img class="i" src="images/i.png"> 
-		<img class="o" src="images/o.png">
-	</div>
-	<nav> <!-- Navigation Bar -->
-		<li><a href="index.html" class="active">HOME</a></li>
-		<li><a href="rio2011.html" class="active"><span class="blue">R</span>i<span class="orange">O</span> 2011</a></li>
-		<li><a href="rio2014.html" class="active"><span class="blue">R</span>i<span class="orange">O</span> 2014</a></li>
-		<li><a href="http://www.riomovies.com" target="_blank"><span class="blue">R</span>i<span class="orange">O</span> Site</a></li>
-	</nav>
-</header>
 <body>
+	<header>
+		<div id="logo"> <!-- Letters R, I and O. -->
+			<img class="r" src="images/r.png">
+			<img class="i" src="images/i.png"> 
+			<img class="o" src="images/o.png">
+		</div>
+		<nav> <!-- Navigation Bar -->
+			<li><a href="index.html" class="active">HOME</a></li>
+			<li><a href="rio2011.html" class="active"><span class="blue">R</span>i<span class="orange">O</span> 2011</a></li>
+			<li><a href="rio2014.html" class="active"><span class="blue">R</span>i<span class="orange">O</span> 2014</a></li>
+			<li><a href="http://www.riomovies.com" target="_blank"><span class="blue">R</span>i<span class="orange">O</span> Site</a></li>
+		</nav>
+	</header>
+
 	<img id="homeImage" src="images/rioNight.png">
-<div id="main">
-	<p class="bigger">Rio is an American 3D computer-animated musical adventure-comedy. The title refers to the Brazilian city of Rio de Janeiro, where the film is set.
-	<br/><br/>
-	<img src="images/brazil.png"><!-- Map of Brazil -->
-	</p>
-</div>
-</body>
-<footer>
-<a class="bigger" href="#openPic">Click Here</a><p class="modalMessage"> to watch photos of Rio de Janeiro, Brazil!</p>
-<div id="openPic" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<p class="infoCenter"><!-- Photos of Brazil inside the Modal. -->
-		<img class="rioShow" src="images/realrio1.jpg">
-		<img class="rioShow" src="images/realrio2.jpg">
-		<img class="rioShow" src="images/realrio3.jpg">
-			<button class="back-button" onclick="plusDivs(-1)">&#10094;</button>
-			<button class="forward-button" onclick="plusDivs(+1)">&#10095;</button>
-			<script src="script.js"></script> <!-- External JS File -->
+	<div id="main">
+		<p class="bigger">Rio is an American 3D computer-animated musical adventure-comedy. The title refers to the Brazilian city of Rio de Janeiro, where the film is set.
+		<br/><br/>
+		<img src="images/brazil.png"><!-- Map of Brazil -->
+		</p>
 	</div>
-</div>
-<p class="footer-info">Handmade by <a href="http://francheskaguzman.io" target="_blank">Francheska Guzman</a>.</p>
-</footer>
+
+  <footer>
+	<br/><br/>
+	<a class="bigger" href="#openPic">Click Here</a>
+	<p class="modalMessage"> to watch photos of Rio de Janeiro, Brazil!</p>
+	<div id="openPic" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<p class="infoCenter"><!-- Photos of Brazil inside the Modal. -->
+			<img class="rioShow" src="images/realrio1.jpg">
+			<img class="rioShow" src="images/realrio2.jpg">
+			<img class="rioShow" src="images/realrio3.jpg">
+				<button class="back-button" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="forward-button" onclick="plusDivs(+1)">&#10095;</button>
+		</div>
+	</div>
+	<p class="footer-info">Handmade by <a href="http://francheskaguzman.io" target="_blank">Francheska Guzman</a>.</p>
+  </footer>
+
+<!-- External JS File -->
+<script src="script.js"></script>
+</body>
 </html>
