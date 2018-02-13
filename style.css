@@ -57,6 +57,10 @@ li a:hover {
 	background-color: #2D1D12;
 }
 
+h1, #title {
+	transition: 5s;
+}
+
 h2 {
 	font-size: 30px;
 	color: #2E51A1;
@@ -66,10 +70,6 @@ h2 {
 p {
 	font-size: 16px;
 	font-family: helvetica;
-}
-
-footer {
-	height: 150px;
 }
 
 .blue {
@@ -281,12 +281,12 @@ footer {
 	right: -12px;
 	text-align: center;
 	top: -10px;
-	width: 24px;
+	padding: 3px 10px;
 	text-decoration: none;
 	font-weight: bold;
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
-	border-radius: 12px;
+	border-radius: 15px;
 	-moz-box-shadow: 1px 1px 3px #000000;
 	-webkit-box-shadow: 1px 1px 3px #000000;
 	box-shadow: 1px 1px 3px #000;
@@ -298,6 +298,7 @@ footer {
 
 footer {
 	width: 100%;
+	min-height: 80px;
 	background-color: #DB5B1E;
 	font-size: 12px;
 	color: #DB5B1E;
